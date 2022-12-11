@@ -50,8 +50,17 @@ const data = [
     { name: "Érica", age: 16, sallary: 0, driverLicense: false },
   ];
 
+  
 
-  //Método reverse
+
+  //Método Reverse
 
   const dataReverse = data.reverse();
 console.log(dataReverse)
+
+  //Método Find
+
+  const salarioMaisAlto = data.find((user) => 
+    user.sallary > 5000
+    )
+  console.log(salarioMaisAlto)
