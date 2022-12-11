@@ -50,7 +50,14 @@ const data = [
     { name: "Érica", age: 16, sallary: 0, driverLicense: false },
   ];
 
-  
+  const array = [
+
+    "João Victor",
+    "Clemilton",
+    "Gabriel",
+    "Léo"
+
+  ]
 
 
   //Método Reverse
@@ -64,3 +71,7 @@ console.log(dataReverse)
     user.sallary > 5000
     )
   console.log(salarioMaisAlto)
+
+  const pessoa = array.find(massa => massa =="João Victor")
+
+  console.log(pessoa)
