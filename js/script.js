@@ -49,3 +49,9 @@ const data = [
     { name: "Pedro", age: 50, sallary: 7200, driverLicense: true },
     { name: "Érica", age: 16, sallary: 0, driverLicense: false },
   ];
+
+
+  //Método reverse
+
+  const dataReverse = data.reverse();
+console.log(dataReverse)
