@@ -183,7 +183,7 @@ const encontrarNumsMaiores7 = (colecao) => {
     }
   }
 
-  return numerosMaioresQ7;
+  return `Os números maiores que 7 encontrados são: ${numerosMaioresQ7}`;
 };
 
 console.log(encontrarNumsMaiores7(numerosArray));
