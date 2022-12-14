@@ -9,3 +9,10 @@ export let dizerHoras = () =>{
 
 
 }
+
+
+export let somarStrings = (string1, string2) =>{ //Sim, isso é possivel e eu vou provar através da função eval()!
+
+    return eval(`${string1.toString()} + ${string2.toString()}`)
+
+}

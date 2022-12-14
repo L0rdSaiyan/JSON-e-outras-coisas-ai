@@ -1,7 +1,9 @@
 import {baz} from "./app.js"
 import {dizerHoras} from "./app.js"
+import {somarStrings} from "./app.js" //Sim, isso é possivel
 console.log(baz)
 console.log(dizerHoras())
+console.log(somarStrings("2","2"))
 
 const objs = [
   {
