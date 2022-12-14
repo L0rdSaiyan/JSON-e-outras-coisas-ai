@@ -152,10 +152,13 @@ let maiorValor = (colecao) => {
 
 console.log(maiorValor(collection));
 
-const textos = [
-  "O meu coração é puro... Pura maldade!",
-  "Javascript sola",
-  "Oi, eu sou o Goku!",
+const paisesNaCopa = [
+  
+  "Argentina",
+  "França",
+  "Croacia",
+  "Portugal"
+
 ];
 
 const encontrarTexto = (colecao, texto) => {
@@ -170,7 +173,13 @@ const encontrarTexto = (colecao, texto) => {
   }
 };
 
-console.log(encontrarTexto(textos, "Oi, eu sou o Goku!"));
+console.log(encontrarTexto(paisesNaCopa, "Brasil"));
+
+
+
+
+
+
 
 let numerosArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
