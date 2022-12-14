@@ -1,0 +1,21 @@
+#btn{
+
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(360deg, blue,rgb(192, 37, 37));
+    border-radius: 10px;
+    color: white;
+
+
+}
+
+
+#btn:hover{
+
+    cursor: pointer;
+    transform: rotate(360deg);
+    transition: 200ms;
+    background-color: blue;
+
+
+}
