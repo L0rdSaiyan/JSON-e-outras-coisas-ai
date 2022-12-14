@@ -153,7 +153,7 @@ let maiorValor = (colecao) => {
 console.log(maiorValor(collection));
 
 
-const textos = ["Meu coração é puro... É pura maldade!", "Javascript sola", "Oi, eu sou o Goku!"]
+const textos = ["O meu coração é puro... Pura maldade!", "Javascript sola", "Oi, eu sou o Goku!"]
 
 const encontrarTexto = (colecao,texto) =>{
 
@@ -161,16 +161,15 @@ const encontrarTexto = (colecao,texto) =>{
 
   for(let i = 0; i<=colecao.length;i++){
 
-    if(colecao[i]===texto){
+    if(colecao[i]==texto){
 
       return true
 
     }else{
 
-      return false;
+      console.log(false)
 
     }
-
 
   }
 
