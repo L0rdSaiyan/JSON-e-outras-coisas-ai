@@ -152,29 +152,22 @@ let maiorValor = (colecao) => {
 
 console.log(maiorValor(collection));
 
+const textos = [
+  "O meu coração é puro... Pura maldade!",
+  "Javascript sola",
+  "Oi, eu sou o Goku!",
+];
 
-const textos = ["O meu coração é puro... Pura maldade!", "Javascript sola", "Oi, eu sou o Goku!"]
-
-const encontrarTexto = (colecao,texto) =>{
-
-
-
-  for(let i = 0; i<=colecao.length;i++){
-
-    if(colecao[i]==texto){
-
-      return true
-
+const encontrarTexto = (colecao, texto) => {
+  for (let i = 0; i <= colecao.length; i++) {
+    if (colecao[i] == texto) {
+      return true;
     }
-    
-    if(!colecao.includes(texto)){
 
-      return false
-
+    if (!colecao.includes(texto)) {
+      return false;
     }
   }
+};
 
-
-}
-
-console.log(encontrarTexto(textos,"Oi, eu sou o Goku!"))
+console.log(encontrarTexto(textos, "Oi, eu sou o Goku!"));
