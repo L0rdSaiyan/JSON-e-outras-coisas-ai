@@ -1,3 +1,6 @@
+import {baz} from "./app.js"
+console.log(baz)
+
 const objs = [
   {
     nome: "João Victor",
@@ -130,3 +133,5 @@ let cliente = {
 };
 
 console.log(fileiraEspecial(cliente));
+
+
