@@ -22,6 +22,16 @@ const objs = [
   },
 ];
 
+// Desenvolver uma função que recebe um parâmetro e retorna se esse parâmetro é uma senha válida ou não (true ou false):
+// Uma senha é válida se:
+// // Ela for um texto
+// // Ela tiver de 6 à 14 caracteres
+//       |
+//       |
+//       |
+//      \ /
+//       |
+
 let validarSenha = (senha) => {
   let pass = prompt("Insira a senha: ");
 
@@ -68,6 +78,14 @@ const pessoa = array.find((massa) => massa == "João Victor");
 
 console.log(pessoa);
 
+// Desenvolver uma função que recebe um valor numérico e retorna o mesmo da seguinte forma: R$ xx.xx (Ex: 9.99 vira R$ 9.99) e caso receba um valor inválido retorna o texto “Valor Inválido”
+// Bônus: retornar a estrutura com vírgula dividindo o decimal em vez de ponto (Ex: 9.99 vira R$ 9,99)
+
+// //       |
+// //       |
+// //      \ /
+// //       |
+
 let formatarDinheiro = (valor) => {
   let valorFormatado = `O valor formatado é: R$${valor} Reais`;
   return valorFormatado;
@@ -75,16 +93,40 @@ let formatarDinheiro = (valor) => {
 
 console.log(formatarDinheiro(23));
 
-
-function Massa(texto){
-
-  if(texto===null){
-
-    return "string vazia"
-
+function Massa(texto) {
+  if (texto === null) {
+    return "string vazia";
   }
-
-
 }
 
-console.log(Massa(""))
+console.log(Massa(""));
+
+// Desenvolver uma função que recebe um objeto e, a partir dele, retorna se um cliente pode ou não (true ou false) sentar na fileira especial do avião.
+// Para sentar na fileira especial do avião é necessário seguir uma das seguintes condições:
+// 1- Ter 60 ou mais anos de idade
+// 2- Pesar 100 ou mais Kilos
+// Caso a função receba algo diferente de um objeto ou um objeto que não tenha os parâmetros esperados, retorna false.
+
+// // //       |
+// // //       |
+// // //      \ /
+// // //       |
+
+let fileiraEspecial = (passageiro) => {
+  if (typeof passageiro != "object") {
+    return "Falso";
+  }
+
+  if (passageiro.idade >= 60 && passageiro.peso >= 100) {
+    return `O passageira ${passageiro.nome} se qualifica para oculpar a fileira especial.`;
+  }
+};
+
+let cliente = {
+  nome: "João Victor Sales Teixeira",
+  idade: 16,
+  altura: 1.67,
+  peso: 40,
+};
+
+console.log(fileiraEspecial(cliente));
