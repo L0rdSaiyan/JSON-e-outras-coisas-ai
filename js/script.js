@@ -165,12 +165,13 @@ const encontrarTexto = (colecao,texto) =>{
 
       return true
 
-    }else{
+    }
+    
+    if(!colecao.includes(texto)){
 
-      console.log(false)
+      return false
 
     }
-
   }
 
 
