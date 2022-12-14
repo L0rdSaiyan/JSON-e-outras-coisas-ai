@@ -171,3 +171,26 @@ const encontrarTexto = (colecao, texto) => {
 };
 
 console.log(encontrarTexto(textos, "Oi, eu sou o Goku!"));
+
+
+let numerosArray = [0,1,2,3,4,5,6,7,8,9,10]
+
+const encontrarNumsMaiores7 = (colecao) =>{
+
+  let numerosMaioresQ7 = []
+
+  for(let i = 0; i<=colecao.length;i++){
+
+    if(colecao[i]>=7){
+
+      numerosMaioresQ7.push(colecao[i])
+
+    }
+
+  }
+
+    return numerosMaioresQ7
+
+}
+
+console.log(encontrarNumsMaiores7(numerosArray))
