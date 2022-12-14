@@ -137,3 +137,17 @@ let cliente = {
 };
 
 console.log(fileiraEspecial(cliente));
+
+const collection = [1, 2, 3, 4, 5, 20, 80, 100];
+
+let maiorValor = (colecao) => {
+  let maior = 0;
+  for (let i = 0; i <= colecao.length; i++) {
+    if (colecao[i] >= maior) {
+      maior = colecao[i];
+    }
+  }
+  return `O maior valor da coleção é: ${maior}`;
+};
+
+console.log(maiorValor(collection));
