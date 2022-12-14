@@ -1,5 +1,7 @@
 import {baz} from "./app.js"
+import {dizerHoras} from "./app.js"
 console.log(baz)
+console.log(dizerHoras())
 
 const objs = [
   {
