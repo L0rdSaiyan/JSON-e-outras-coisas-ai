@@ -1,18 +1,13 @@
-export const baz = 123 
+export const baz = 123;
 
+export let dizerHoras = () => {
+  let data = new Date();
 
-export let dizerHoras = () =>{
+  return `O ano registrado nesta máquina é de: ${data.getFullYear()}`;
+};
 
-    let data = new Date()
+export let somarStrings = (string1, string2) => {
+  //Sim, isso é possivel e eu vou provar através da função eval()!
 
-    return `O ano registrado nesta máquina é de: ${data.getFullYear()}`
-
-
-}
-
-
-export let somarStrings = (string1, string2) =>{ //Sim, isso é possivel e eu vou provar através da função eval()!
-
-    return eval(`${string1.toString()} + ${string2.toString()}`)
-
-}
+  return eval(`${string1.toString()} + ${string2.toString()}`);
+};
