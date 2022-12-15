@@ -146,3 +146,15 @@ let retornarNomesForEach = (array) => {
 };
 
 console.log(retornarNomesForEach(arrayAlunosObjs2));
+
+const arrayNumeros = [100, 200, 300, 400];
+
+const converterArray = (array) => {
+  let resultado = array.map(function (elemento) {
+    return `R$ ${elemento}`;
+  });
+
+  return resultado;
+};
+
+console.log(converterArray(arrayNumeros));
