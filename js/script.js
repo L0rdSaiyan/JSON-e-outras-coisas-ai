@@ -4,18 +4,16 @@ import { somarStrings } from "./app.js"; //Sim, isso é possivel
 import { validarSenha } from "./app.js";
 import { formatarDinheiro } from "./app.js";
 import { fileiraEspecial } from "./app.js";
-import {cliente} from "./app.js"
+import { cliente } from "./app.js";
 import { maiorValor } from "./app.js";
 import { collection } from "./app.js";
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
-console.log(validarSenha("Jsreactjs"))
-console.log(formatarDinheiro(8000))
+// console.log(validarSenha("Jsreactjs"))
+console.log(formatarDinheiro(8000));
 console.log(fileiraEspecial(cliente));
 console.log(maiorValor(collection));
-
-
 
 const objs = [
   {
@@ -40,7 +38,6 @@ const objs = [
     },
   },
 ];
-
 
 //json
 //converter objeto para json
@@ -76,28 +73,6 @@ const pessoa = array.find((massa) => massa == "João Victor");
 
 console.log(pessoa);
 
-console.log(Massa(""));
-
-const textos = [
-  "O meu coração é puro... Pura maldade!",
-  "Javascript sola",
-  "Oi, eu sou o Goku!",
-];
-
-const encontrarTexto = (colecao, texto) => {
-  for (let i = 0; i <= colecao.length; i++) {
-    if (colecao[i] == texto) {
-      return true;
-    }
-
-    if (!colecao.includes(texto)) {
-      return false;
-    }
-  }
-};
-
-console.log(encontrarTexto(textos, "Oi, eu sou o Goku!"));
-
 let numerosArray = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 const encontrarNumsMaiores7 = (colecao) => {
@@ -129,3 +104,22 @@ const mediaColecao = (colecao) => {
 };
 
 console.log(mediaColecao(numerosCollection));
+
+const arrayAlunosObjs = [
+  {
+    nome: "João Victor",
+    notas: [8, 9, 10],
+  },
+];
+
+let retornarNomesAlunos = (colecaoObjs) => {
+  let retornoNomes = [];
+
+  for (let i = 0; i < colecaoObjs.length; i++) {
+    retornoNomes.push(colecaoObjs[i].nome);
+  }
+
+  return retornoNomes;
+};
+
+console.log(retornarNomesAlunos(arrayAlunosObjs));

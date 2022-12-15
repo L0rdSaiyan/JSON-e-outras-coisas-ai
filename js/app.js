@@ -118,3 +118,9 @@ export const encontrarTexto = (colecao, texto) => {
     }
   }
 };
+
+export const textos = [
+  "O meu coração é puro... Pura maldade!",
+  "Javascript sola",
+  "Oi, eu sou o Goku!",
+];
