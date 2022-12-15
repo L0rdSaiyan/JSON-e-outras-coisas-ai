@@ -158,3 +158,25 @@ const converterArray = (array) => {
 };
 
 console.log(converterArray(arrayNumeros));
+
+const arrayLivros = [
+  {
+    nome: "Livro 1",
+    genero: "Comédia",
+  },
+
+  {
+    nome: "Livro 2",
+    genero: "Terror",
+  },
+];
+
+const filtrarLivros = (livros, genero) => {
+  const livrosFiltrados = livros.filter(function (elementos) {
+    return elementos.genero == genero;
+  });
+
+  return livrosFiltrados;
+};
+
+console.log(filtrarLivros(arrayLivros, "Terror"));
