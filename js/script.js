@@ -1,9 +1,11 @@
 import { baz } from "./app.js";
 import { dizerHoras } from "./app.js";
 import { somarStrings } from "./app.js"; //Sim, isso é possivel
+import { validarSenha } from "./app.js";
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
+console.log(validarSenha("Jsreactjs"))
 
 const objs = [
   {
@@ -39,17 +41,7 @@ const objs = [
 //      \ /
 //       |
 
-let validarSenha = (senha) => {
-  let pass = prompt("Insira a senha: ");
 
-  senha = pass;
-
-  if (typeof senha == "string" && senha.length >= 6 && senha.length <= 14) {
-    alert("A senha confere!");
-  } else {
-    alert("A senha não confere");
-  }
-};
 
 //json
 //converter objeto para json

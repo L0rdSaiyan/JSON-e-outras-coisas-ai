@@ -11,3 +11,16 @@ export let somarStrings = (string1, string2) => {
 
   return eval(`${string1.toString()} + ${string2.toString()}`);
 };
+
+
+export let validarSenha = (senha) => {
+  let pass = prompt("Insira a senha: ");
+
+  senha = pass;
+
+  if (typeof senha == "string" && senha.length >= 6 && senha.length <= 14) {
+    alert("A senha confere!");
+  } else {
+    alert("A senha não confere");
+  }
+};
