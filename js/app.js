@@ -61,3 +61,11 @@ let fileiraEspecial = (passageiro) => {
     return `O passageira ${passageiro.nome} se qualifica para oculpar a fileira especial.`;
   }
 };
+
+
+let cliente = {
+  nome: "João Victor Sales Teixeira",
+  idade: 16,
+  altura: 1.67,
+  peso: 40,
+};

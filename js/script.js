@@ -82,13 +82,6 @@ console.log(Massa(""));
 // // //       |
 
 
-let cliente = {
-  nome: "João Victor Sales Teixeira",
-  idade: 16,
-  altura: 1.67,
-  peso: 40,
-};
-
 console.log(fileiraEspecial(cliente));
 
 const collection = [1, 2, 3, 4, 5, 20, 80, 100];
