@@ -123,3 +123,25 @@ let retornarNomesAlunos = (colecaoObjs) => {
 };
 
 console.log(retornarNomesAlunos(arrayAlunosObjs));
+
+
+const arrayAlunosObjs2 = [
+  {
+    nome: "João Victor",
+    notas: [8, 9, 10],
+  },
+];
+
+let retornarNomesForEach = () =>{
+
+  
+
+
+
+}
+
+
+
+
+
+
