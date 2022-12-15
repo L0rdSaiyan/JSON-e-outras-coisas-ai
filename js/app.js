@@ -73,10 +73,22 @@ export let fileiraEspecial = (passageiro) => {
   }
 };
 
-
+//Objeto para testes da função fileiraEspecial()
 let cliente = {
   nome: "João Victor Sales Teixeira",
   idade: 16,
   altura: 1.67,
   peso: 40,
+};
+
+
+
+let maiorValor = (colecao) => {
+  let maior = 0;
+  for (let i = 0; i <= colecao.length; i++) {
+    if (colecao[i] >= maior) {
+      maior = colecao[i];
+    }
+  }
+  return `O maior valor da coleção é: ${maior}`;
 };
