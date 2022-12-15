@@ -5,12 +5,16 @@ import { validarSenha } from "./app.js";
 import { formatarDinheiro } from "./app.js";
 import { fileiraEspecial } from "./app.js";
 import {cliente} from "./app.js"
+import { maiorValor } from "./app.js";
+import { collection } from "./app.js";
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
 console.log(validarSenha("Jsreactjs"))
 console.log(formatarDinheiro(8000))
 console.log(fileiraEspecial(cliente));
+console.log(maiorValor(collection));
+
 
 
 const objs = [
