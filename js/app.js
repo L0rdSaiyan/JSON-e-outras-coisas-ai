@@ -74,7 +74,7 @@ export let fileiraEspecial = (passageiro) => {
 };
 
 //Objeto para testes da função fileiraEspecial()
-let cliente = {
+export let cliente = {
   nome: "João Victor Sales Teixeira",
   idade: 16,
   altura: 1.67,
@@ -88,7 +88,7 @@ let cliente = {
 // // // //      \ /
 // // // //       |
 
-let maiorValor = (colecao) => {
+export let maiorValor = (colecao) => {
   let maior = 0;
   for (let i = 0; i <= colecao.length; i++) {
     if (colecao[i] >= maior) {
@@ -99,4 +99,4 @@ let maiorValor = (colecao) => {
 };
 
 //array para a função maiorValor
-const collection = [1, 2, 3, 4, 5, 20, 80, 100];
+export const collection = [1, 2, 3, 4, 5, 20, 80, 100];

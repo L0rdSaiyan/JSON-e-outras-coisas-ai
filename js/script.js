@@ -74,10 +74,6 @@ console.log(pessoa);
 
 console.log(Massa(""));
 
-
-
-console.log(maiorValor(collection));
-
 const textos = [
   "O meu coração é puro... Pura maldade!",
   "Javascript sola",
