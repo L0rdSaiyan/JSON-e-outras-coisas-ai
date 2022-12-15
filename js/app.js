@@ -43,10 +43,3 @@ export let formatarDinheiro = (valor) => {
   return valorFormatado;
 };
 
-console.log(formatarDinheiro(23));
-
-function Massa(texto) {
-  if (texto === null) {
-    return "string vazia";
-  }
-}

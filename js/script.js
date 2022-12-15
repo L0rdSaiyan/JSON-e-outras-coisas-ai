@@ -68,27 +68,6 @@ const pessoa = array.find((massa) => massa == "João Victor");
 
 console.log(pessoa);
 
-// Desenvolver uma função que recebe um valor numérico e retorna o mesmo da seguinte forma: R$ xx.xx (Ex: 9.99 vira R$ 9.99) e caso receba um valor inválido retorna o texto “Valor Inválido”
-// Bônus: retornar a estrutura com vírgula dividindo o decimal em vez de ponto (Ex: 9.99 vira R$ 9,99)
-
-// //       |
-// //       |
-// //      \ /
-// //       |
-
-let formatarDinheiro = (valor) => {
-  let valorFormatado = `O valor formatado é: R$${valor} Reais`;
-  return valorFormatado;
-};
-
-console.log(formatarDinheiro(23));
-
-function Massa(texto) {
-  if (texto === null) {
-    return "string vazia";
-  }
-}
-
 console.log(Massa(""));
 
 // Desenvolver uma função que recebe um objeto e, a partir dele, retorna se um cliente pode ou não (true ou false) sentar na fileira especial do avião.
