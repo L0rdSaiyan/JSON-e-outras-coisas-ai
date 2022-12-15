@@ -97,3 +97,6 @@ let maiorValor = (colecao) => {
   }
   return `O maior valor da coleção é: ${maior}`;
 };
+
+//array para a função maiorValor
+const collection = [1, 2, 3, 4, 5, 20, 80, 100];

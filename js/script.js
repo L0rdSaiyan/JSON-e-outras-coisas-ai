@@ -75,15 +75,6 @@ console.log(pessoa);
 console.log(Massa(""));
 
 
-// Desenvolver uma função que recebe uma coleção de números e retorna o maior número daquela coleção
-
-// // // //       |
-// // // //       |
-// // // //      \ /
-// // // //       |
-
-const collection = [1, 2, 3, 4, 5, 20, 80, 100];
-
 
 console.log(maiorValor(collection));
 
