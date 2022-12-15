@@ -81,7 +81,12 @@ let cliente = {
   peso: 40,
 };
 
+// Desenvolver uma função que recebe uma coleção de números e retorna o maior número daquela coleção
 
+// // // //       |
+// // // //       |
+// // // //      \ /
+// // // //       |
 
 let maiorValor = (colecao) => {
   let maior = 0;
