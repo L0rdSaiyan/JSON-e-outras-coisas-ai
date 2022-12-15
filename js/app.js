@@ -51,8 +51,19 @@ export let formatarDinheiro = (valor) => {
 };
 
 
+  // Desenvolver uma função que recebe um objeto e, a partir dele, retorna se um cliente pode ou não (true ou false) sentar na fileira especial do avião.
+// Para sentar na fileira especial do avião é necessário seguir uma das seguintes condições:
+// 1- Ter 60 ou mais anos de idade
+// 2- Pesar 100 ou mais Kilos
+// Caso a função receba algo diferente de um objeto ou um objeto que não tenha os parâmetros esperados, retorna false.
 
-let fileiraEspecial = (passageiro) => {
+// // //       |
+// // //       |
+// // //      \ /
+// // //       |
+
+
+export let fileiraEspecial = (passageiro) => {
   if (typeof passageiro != "object") {
     return "Falso";
   }
