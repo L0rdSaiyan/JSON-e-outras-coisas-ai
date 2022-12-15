@@ -36,3 +36,17 @@ export let validarSenha = (senha) => {
     alert("A senha não confere");
   }
 };
+
+
+export let formatarDinheiro = (valor) => {
+  let valorFormatado = `O valor formatado é: R$${valor} Reais`;
+  return valorFormatado;
+};
+
+console.log(formatarDinheiro(23));
+
+function Massa(texto) {
+  if (texto === null) {
+    return "string vazia";
+  }
+}

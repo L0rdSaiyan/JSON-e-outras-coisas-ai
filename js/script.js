@@ -2,10 +2,12 @@ import { baz } from "./app.js";
 import { dizerHoras } from "./app.js";
 import { somarStrings } from "./app.js"; //Sim, isso é possivel
 import { validarSenha } from "./app.js";
+import { formatarDinheiro } from "./app.js";
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
 console.log(validarSenha("Jsreactjs"))
+console.log(formatarDinheiro(8000))
 
 const objs = [
   {
@@ -30,17 +32,6 @@ const objs = [
     },
   },
 ];
-
-// Desenvolver uma função que recebe um parâmetro e retorna se esse parâmetro é uma senha válida ou não (true ou false):
-// Uma senha é válida se:
-// // Ela for um texto
-// // Ela tiver de 6 à 14 caracteres
-//       |
-//       |
-//       |
-//      \ /
-//       |
-
 
 
 //json
