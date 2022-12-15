@@ -13,6 +13,18 @@ export let somarStrings = (string1, string2) => {
 };
 
 
+
+// Desenvolver uma função que recebe um parâmetro e retorna se esse parâmetro é uma senha válida ou não (true ou false):
+// Uma senha é válida se:
+// // Ela for um texto
+// // Ela tiver de 6 à 14 caracteres
+//       |
+//       |
+//       |
+//      \ /
+//       |
+
+
 export let validarSenha = (senha) => {
   let pass = prompt("Insira a senha: ");
 
