@@ -101,7 +101,11 @@ export let maiorValor = (colecao) => {
 //array para a função maiorValor
 export const collection = [1, 2, 3, 4, 5, 20, 80, 100];
 
-
+//Desenvolver uma função que recebe dois parâmetros: uma coleção de textos e um texto. E retorna se o texto passado está na coleção de textos (true ou false)
+// // // //       |
+// // // //       |
+// // // //      \ /
+// // // //       |
 
 export const encontrarTexto = (colecao, texto) => {
   for (let i = 0; i <= colecao.length; i++) {
