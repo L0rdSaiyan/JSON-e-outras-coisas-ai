@@ -124,24 +124,25 @@ let retornarNomesAlunos = (colecaoObjs) => {
 
 console.log(retornarNomesAlunos(arrayAlunosObjs));
 
-
 const arrayAlunosObjs2 = [
   {
     nome: "João Victor",
     notas: [8, 9, 10],
   },
+  {
+    nome: "JV",
+    notas: [8, 9, 10],
+  },
 ];
 
-let retornarNomesForEach = () =>{
+let retornarNomesForEach = (array) => {
+  let retornoNomes = [];
 
-  
+  array.forEach(function (objetos) {
+    retornoNomes.push(objetos.nome);
+  });
 
+  return retornoNomes;
+};
 
-
-}
-
-
-
-
-
-
+console.log(retornarNomesForEach(arrayAlunosObjs2));
