@@ -187,3 +187,19 @@ const encontrarNumsMaiores7 = (colecao) => {
 };
 
 console.log(encontrarNumsMaiores7(numerosArray));
+
+const numerosCollection = [10, 20, 40, 30];
+
+const mediaColecao = (colecao) => {
+  let soma = 0;
+
+  for (let i = 0; i < colecao.length; i++) {
+    soma = soma + colecao[i];
+  }
+
+  return `A média dos números presentes na coleção ${colecao} é: ${
+    soma / colecao.length
+  }`;
+};
+
+console.log(mediaColecao(numerosCollection));
