@@ -3,11 +3,15 @@ import { dizerHoras } from "./app.js";
 import { somarStrings } from "./app.js"; //Sim, isso é possivel
 import { validarSenha } from "./app.js";
 import { formatarDinheiro } from "./app.js";
+import { fileiraEspecial } from "./app.js";
+import {cliente} from "./app.js"
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
 console.log(validarSenha("Jsreactjs"))
 console.log(formatarDinheiro(8000))
+console.log(fileiraEspecial(cliente));
+
 
 const objs = [
   {
@@ -71,8 +75,6 @@ console.log(pessoa);
 console.log(Massa(""));
 
 
-
-console.log(fileiraEspecial(cliente));
 
 const collection = [1, 2, 3, 4, 5, 20, 80, 100];
 
