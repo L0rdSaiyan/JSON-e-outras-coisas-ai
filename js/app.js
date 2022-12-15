@@ -50,3 +50,14 @@ export let formatarDinheiro = (valor) => {
   return valorFormatado;
 };
 
+
+
+let fileiraEspecial = (passageiro) => {
+  if (typeof passageiro != "object") {
+    return "Falso";
+  }
+
+  if (passageiro.idade >= 60 && passageiro.peso >= 100) {
+    return `O passageira ${passageiro.nome} se qualifica para oculpar a fileira especial.`;
+  }
+};
