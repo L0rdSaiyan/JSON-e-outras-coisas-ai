@@ -37,6 +37,13 @@ export let validarSenha = (senha) => {
   }
 };
 
+// Desenvolver uma função que recebe um valor numérico e retorna o mesmo da seguinte forma: R$ xx.xx (Ex: 9.99 vira R$ 9.99) e caso receba um valor inválido retorna o texto “Valor Inválido”
+// Bônus: retornar a estrutura com vírgula dividindo o decimal em vez de ponto (Ex: 9.99 vira R$ 9,99)
+
+// //       |
+// //       |
+// //      \ /
+// //       |
 
 export let formatarDinheiro = (valor) => {
   let valorFormatado = `O valor formatado é: R$${valor} Reais`;
