@@ -100,3 +100,17 @@ export let maiorValor = (colecao) => {
 
 //array para a função maiorValor
 export const collection = [1, 2, 3, 4, 5, 20, 80, 100];
+
+
+
+export const encontrarTexto = (colecao, texto) => {
+  for (let i = 0; i <= colecao.length; i++) {
+    if (colecao[i] == texto) {
+      return true;
+    }
+
+    if (!colecao.includes(texto)) {
+      return false;
+    }
+  }
+};
