@@ -201,3 +201,5 @@ console.log(dataReverse);
 
 const array = ["João Victor", "Clemilton", "Gabriel", "Léo"];
 
+const salarioMaisAlto = data.find((user) => user.sallary > 5000);
+
