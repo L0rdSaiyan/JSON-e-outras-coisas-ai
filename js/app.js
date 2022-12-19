@@ -124,3 +124,28 @@ export const textos = [
   "Javascript sola",
   "Oi, eu sou o Goku!",
 ];
+
+
+const objs = [
+  {
+    nome: "João Victor",
+    idade: 16,
+    esta_trabalhando: false,
+    hobbies: ["Programar", "Jogar", "Fazer exercícios"],
+    detalhes_profissao: {
+      profissao: "Programador",
+      empresa: "Microsoft",
+    },
+  },
+
+  {
+    nome: "João Victor Sles",
+    idade: 20,
+    esta_trabalhando: true,
+    hobbies: ["Programar", "Jogar", "Fazer exercícios"],
+    detalhes_profissao: {
+      profissao: "Programador",
+      empresa: "XBOX",
+    },
+  },
+];
