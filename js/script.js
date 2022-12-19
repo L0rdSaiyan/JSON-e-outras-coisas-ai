@@ -16,8 +16,6 @@ console.log(fileiraEspecial(cliente));
 console.log(maiorValor(collection));
 
 
-
-
 const data = [
   { name: "Matheus", age: 31, sallary: 2000, driverLicense: true },
   { name: "João", age: 18, sallary: 1500, driverLicense: false },
@@ -127,6 +125,10 @@ const converterArray = (array) => {
 };
 
 console.log(converterArray(arrayNumeros));
+
+
+
+
 
 const arrayLivros = [
   {

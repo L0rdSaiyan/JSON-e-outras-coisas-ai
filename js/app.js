@@ -162,3 +162,17 @@ const objs = [
 // console.log(objData)
 
 // alert(`Nome: ${objs[1].nome}`)
+
+
+
+const arrayLivros = [
+  {
+    nome: "Livro 1",
+    genero: "Comédia",
+  },
+
+  {
+    nome: "Livro 2",
+    genero: "Terror",
+  },
+];
