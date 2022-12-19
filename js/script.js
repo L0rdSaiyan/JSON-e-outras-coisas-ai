@@ -7,6 +7,7 @@ import { fileiraEspecial } from "./app.js";
 import { cliente } from "./app.js";
 import { maiorValor } from "./app.js";
 import { collection } from "./app.js";
+import {filtrarLivros} from "./app.js"
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
