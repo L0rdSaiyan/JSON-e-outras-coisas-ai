@@ -126,6 +126,8 @@ export const textos = [
 ];
 
 
+    //Objeto que será convertido para texto json e para objeto de novo
+
 const objs = [
   {
     nome: "João Victor",
