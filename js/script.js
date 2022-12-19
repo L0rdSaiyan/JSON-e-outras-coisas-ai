@@ -20,10 +20,7 @@ console.log(maiorValor(collection));
 
 
 
-//Método Find
 
-const salarioMaisAlto = data.find((user) => user.sallary > 5000);
-console.log(salarioMaisAlto);
 
 const pessoa = array.find((massa) => massa == "João Victor");
 
