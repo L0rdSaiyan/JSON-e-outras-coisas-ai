@@ -15,29 +15,7 @@ console.log(formatarDinheiro(8000));
 console.log(fileiraEspecial(cliente));
 console.log(maiorValor(collection));
 
-const objs = [
-  {
-    nome: "João Victor",
-    idade: 16,
-    esta_trabalhando: false,
-    hobbies: ["Programar", "Jogar", "Fazer exercícios"],
-    detalhes_profissao: {
-      profissao: "Programador",
-      empresa: "Microsoft",
-    },
-  },
 
-  {
-    nome: "João Victor Sles",
-    idade: 20,
-    esta_trabalhando: true,
-    hobbies: ["Programar", "Jogar", "Fazer exercícios"],
-    detalhes_profissao: {
-      profissao: "Programador",
-      empresa: "XBOX",
-    },
-  },
-];
 
 //json
 //converter objeto para json
