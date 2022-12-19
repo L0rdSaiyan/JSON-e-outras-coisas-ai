@@ -128,7 +128,7 @@ export const textos = [
 
     //Objeto que será convertido para texto json e para objeto de novo
 
-const objs = [
+export const objs = [
   {
     nome: "João Victor",
     idade: 16,
@@ -165,7 +165,7 @@ const objs = [
 
 
 
-const arrayLivros = [
+export const arrayLivros = [
   {
     nome: "Livro 1",
     genero: "Comédia",
@@ -177,7 +177,7 @@ const arrayLivros = [
   },
 ];
 
-const filtrarLivros = (livros, genero) => {
+export const filtrarLivros = (livros, genero) => {
   const livrosFiltrados = livros.filter(function (elementos) {
     return elementos.genero == genero;
   });
@@ -187,7 +187,7 @@ const filtrarLivros = (livros, genero) => {
 
 
 
-const data = [
+export const data = [
   { name: "Matheus", age: 31, sallary: 2000, driverLicense: true },
   { name: "João", age: 18, sallary: 1500, driverLicense: false },
   { name: "Mariana", age: 22, sallary: 4000, driverLicense: true },
@@ -196,10 +196,10 @@ const data = [
 ];
 
 
-const dataReverse = data.reverse();
+export const dataReverse = data.reverse();
 console.log(dataReverse);
 
-const array = ["João Victor", "Clemilton", "Gabriel", "Léo"];
+export const array = ["João Victor", "Clemilton", "Gabriel", "Léo"];
 
-const salarioMaisAlto = data.find((user) => user.sallary > 5000);
-const pessoa = array.find((massa) => massa == "João Victor");
+export const salarioMaisAlto = data.find((user) => user.sallary > 5000);
+export const pessoa = array.find((massa) => massa == "João Victor");
