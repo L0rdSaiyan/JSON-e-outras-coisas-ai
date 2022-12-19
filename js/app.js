@@ -151,3 +151,14 @@ const objs = [
     },
   },
 ];
+
+
+//json
+//converter objeto para json
+// const jsonData = JSON.stringify(objs)
+// console.log(objs)
+// console.log(jsonData)
+// const objData = JSON.parse(jsonData)
+// console.log(objData)
+
+// alert(`Nome: ${objs[1].nome}`)
