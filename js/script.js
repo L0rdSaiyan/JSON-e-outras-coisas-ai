@@ -18,7 +18,6 @@ console.log(formatarDinheiro(8000));
 console.log(fileiraEspecial(cliente));
 console.log(maiorValor(collection));
 
-const array = ["João Victor", "Clemilton", "Gabriel", "Léo"];
 
 //Método Reverse
 
