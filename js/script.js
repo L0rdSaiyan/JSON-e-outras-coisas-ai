@@ -8,6 +8,8 @@ import { cliente } from "./app.js";
 import { maiorValor } from "./app.js";
 import { collection } from "./app.js";
 import {filtrarLivros} from "./app.js"
+import {arrayLivros} from "./app.js"
+console.log(filtrarLivros(arrayLivros, "Terror"));
 console.log(baz);
 console.log(dizerHoras());
 console.log(somarStrings("2", "2"));
