@@ -196,4 +196,8 @@ const data = [
 ];
 
 
+const dataReverse = data.reverse();
+console.log(dataReverse);
+
 const array = ["João Victor", "Clemilton", "Gabriel", "Léo"];
+
