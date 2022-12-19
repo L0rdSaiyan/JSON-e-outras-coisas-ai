@@ -127,12 +127,4 @@ const converterArray = (array) => {
 console.log(converterArray(arrayNumeros));
 
 
-const filtrarLivros = (livros, genero) => {
-  const livrosFiltrados = livros.filter(function (elementos) {
-    return elementos.genero == genero;
-  });
-
-  return livrosFiltrados;
-};
-
 console.log(filtrarLivros(arrayLivros, "Terror"));
