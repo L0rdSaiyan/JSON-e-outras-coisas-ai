@@ -19,10 +19,6 @@ console.log(fileiraEspecial(cliente));
 console.log(maiorValor(collection));
 
 
-//Método Reverse
-
-const dataReverse = data.reverse();
-console.log(dataReverse);
 
 //Método Find
 
