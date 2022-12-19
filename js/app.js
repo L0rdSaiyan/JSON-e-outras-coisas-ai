@@ -176,3 +176,11 @@ const arrayLivros = [
     genero: "Terror",
   },
 ];
+
+const filtrarLivros = (livros, genero) => {
+  const livrosFiltrados = livros.filter(function (elementos) {
+    return elementos.genero == genero;
+  });
+
+  return livrosFiltrados;
+};
